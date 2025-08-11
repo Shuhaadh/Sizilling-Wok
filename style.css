@@ -1,0 +1,394 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+ 
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.container-fluid{
+    background-color: #ffffff;
+}
+
+
+.navbar-brand{
+    color: rgb(194, 4, 4);
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.about{
+    color: #6d0a0a;
+    
+    
+}
+
+
+.cafe-name{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+body {
+background: #ffffff;
+color: #fff;
+}
+
+
+
+
+.menu{
+  font-weight: 300;
+  
+}
+
+
+
+.menu-container {
+max-width: 800px;
+margin: auto;
+ 
+
+}
+
+.menu-toggle {
+width: 60%;
+margin: 10px auto;
+background: #a31818;
+color: #ffffff;
+font-size: 22px;
+padding: 15px;
+border: none;
+text-align: left;
+cursor: pointer;
+margin-bottom: 20px;
+border-radius: 40px;
+text-align: center;
+display: block;
+
+}
+
+.menu-toggle:hover {
+background: #c04444;
+
+}
+
+/* Content */
+.menu-content {
+display: none;
+margin-bottom: 20px;
+
+}
+
+
+
+.menu-content.show {
+display: block;
+}
+
+.menu-section {
+display: flex;
+flex-direction: row;
+background: #b42929;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.menu-img {
+width: 40%;
+object-fit: cover;
+height: auto;
+
+}
+
+.menu-info {
+padding: 20px;
+width: 60%;
+}
+
+.menu-info ul {
+list-style: none;
+padding: 0;
+margin: 0;
+font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu-info ul li {
+display: flex;
+justify-content: space-between;
+padding: 8px 0;
+border-bottom: 1px solid #333;
+ 
+}
+
+.menu-info ul li:last-child {
+border-bottom: none;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.food-item {
+  flex: 1 1 calc(25% - 20px); /* Adjust as needed for responsiveness */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.food-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.food-item h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.food-item p {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+
+.menu-container{
+  background-image: url();
+}
+
+
+.menu-heading {
+      text-align: center;
+      margin: 80px 20px 40px;
+      position: relative;
+      margin-bottom: 50px;
+      padding-top: 0px;
+      margin-top: 10px;
+    }
+
+    .menu-heading h1 {
+      font-size: 48px;
+      color: #333;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 12px;
+     
+
+    }
+
+    .menu-heading h1::after {
+      content: '';
+      width: 60%;
+      height: 4px;
+      background-color: #a80808; /* Tomato color */
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      border-radius: 2px;
+    }
+
+    .menu-heading span {
+      display: block;
+      font-size: 16px;
+      color: #777;
+      margin-top: 10px;
+      letter-spacing: 1px;
+    }
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .button-container {
+  text-align: center; /* centers inline elements like <a> */
+  margin-top: 20px;   /* optional spacing from top */
+
+}
+
+.order-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(119, 11, 11);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.2s, transform 0.2s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.order-button:hover {
+  background-color: rgb(230, 38, 38);
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+footer{
+background-color: #700707;
+}
+.footerContainer{
+width: 100%;
+padding: 70px 30px 20px ;
+}
+.socialIcons{
+display: flex;
+justify-content: center;
+}
+.socialIcons a{
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.socialIcons a i{
+font-size: 2em;
+color: rgb(145, 3, 3);
+opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+background-color: #770303;
+transition: 0.5s;
+}
+.socialIcons a:hover i{
+color: white;
+transition: 0.5s;
+}
+.footerNav{
+margin: 30px 0;
+}
+.footerNav ul{
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+.footerNav ul li a{
+color:white;
+margin: 20px;
+text-decoration: none;
+font-size: 1.3em;
+opacity: 0.7;
+transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+opacity: 1;
+}
+.footerBottom{
+background-color: #740404;
+padding: 20px;
+text-align: center;
+}
+.footerBottom p{
+color: white;
+}
+
+@media (max-width: 700px){
+.footerNav ul{
+flex-direction: column;
+}
+.footerNav ul li{
+
+width:100%;
+text-align: center;
+margin: 10px;
+}
+.socialIcons a{
+padding: 8px;
+margin: 4px;
+}
+}
+
+
+
+
+/* ✅ Responsive for mobile */
+@media (max-width: 600px) {
+.menu-section {
+flex-direction: column;
+}
+
+
+.ourmenu{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.menu-img {
+width: 100%;
+height: 200px;
+}
+
+.menu-info {
+width: 100%;
+}
+
+.menu-toggle {
+font-size: 18px;
+padding: 12px;
+}
+}
